@@ -30,6 +30,11 @@ You should then see the `activecampaign` folder inside `vendor`.
 
 [Read more about using Composer](https://getcomposer.org/doc/).
 
+#### install dependency
+`composer config repositories.activecampaign/api-php git git@github.com:ActiveCampaign/activecampaign-api-php.git`
+`composer require activecampaign/api-php:dev-master`
+
+
 ## Example Usage
 
 ### Composer
